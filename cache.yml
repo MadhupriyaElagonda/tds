@@ -2,7 +2,8 @@ name: Cache Prime Workflow
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
 
 jobs:
   cache-job:
@@ -16,10 +17,9 @@ jobs:
         id: cache-step
         uses: actions/cache@v4
         with:
-          path: |
-            ~/.cache
-            node_modules
+          path: ~/.cache
           key: cache-b491353
 
       - name: prime-cache-b491353
         run: echo "Cache hit? ${{ steps.cache-step.outputs.cache-hit }}"
+
