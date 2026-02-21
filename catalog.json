@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "email": "23f2003478@ds.study.iitm.ac.in",
+    "version": "080c6c72"
+  },
+  "products": [
+    { "id": "prod-080c6c72-001", "name": "Pro Item 1", "category": "sports", "price": 463.35, "stock": 190, "rating": 1.3 },
+    { "id": "prod-080c6c72-002", "name": "Pro Item 2", "category": "books", "price": 364.93, "stock": 22, "rating": 4.5 },
+    { "id": "prod-080c6c72-003", "name": "Standard Item 3", "category": "clothing", "price": 450.68, "stock": 159, "rating": 4.1 },
+    { "id": "prod-080c6c72-004", "name": "Premium Item 4", "category": "home", "price": 270, "stock": 100, "rating": 2.3 },
+    { "id": "prod-080c6c72-005", "name": "Elite Item 5", "category": "clothing", "price": 66.47, "stock": 90, "rating": 1.7 },
+    { "id": "prod-080c6c72-006", "name": "Premium Item 6", "category": "sports", "price": 446.21, "stock": 0, "rating": 3.9 },
+    { "id": "prod-080c6c72-007", "name": "Premium Item 7", "category": "home", "price": 312.58, "stock": 148, "rating": 2.5 },
+    { "id": "prod-080c6c72-008", "name": "Basic Item 8", "category": "books", "price": 287.17, "stock": 152, "rating": 2.1 },
+    { "id": "prod-080c6c72-009", "name": "Premium Item 9", "category": "home", "price": 171.42, "stock": 191, "rating": 3.7 },
+    { "id": "prod-080c6c72-010", "name": "Standard Item 10", "category": "home", "price": 169.23, "stock": 162, "rating": 3.4 },
+    { "id": "prod-080c6c72-011", "name": "Pro Item 11", "category": "home", "price": 400.12, "stock": 156, "rating": 3.9 },
+    { "id": "prod-080c6c72-012", "name": "Standard Item 12", "category": "sports", "price": 37.67, "stock": 65, "rating": 3.2 },
+    { "id": "prod-080c6c72-013", "name": "Basic Item 13", "category": "electronics", "price": 195.99, "stock": 87, "rating": 1.9 },
+    { "id": "prod-080c6c72-014", "name": "Pro Item 14", "category": "sports", "price": 286.37, "stock": 150, "rating": 4.0 },
+    { "id": "prod-080c6c72-015", "name": "Premium Item 15", "category": "clothing", "price": 239.69, "stock": 184, "rating": 4.3 },
+    { "id": "prod-080c6c72-016", "name": "Premium Item 16", "category": "home", "price": 478.86, "stock": 49, "rating": 3.1 },
+    { "id": "prod-080c6c72-017", "name": "Premium Item 17", "category": "home", "price": 260.17, "stock": 141, "rating": 2.5 }
+  ],
+  "aggregations": {
+    "clothing": {
+      "count": 3,
+      "inventoryValue": 121743.38
+    }
+  }
+}
