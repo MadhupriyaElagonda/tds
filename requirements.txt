@@ -1,0 +1,3 @@
+fastapi
+requets
+pandas
