@@ -1,0 +1,37 @@
+name: CI with Cache
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Cache dependencies
+        id: cache-step
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.npm
+            node_modules
+          key: cache-b491353
+          restore-keys: |
+            cache-b491353
+
+      - name: prime-cache-b491353
+        run: echo "Cache hit: ${{ steps.cache-step.outputs.cache-hit }}"
+
+      - name: Install dependencies
+        run: npm install
